@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simbongile Mkhotheli | Frontend Developer</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav collapsible">
+            <a class="nav__brand" href="/"><img src="imajges/logo.svg" alt="Simbongile Logo" /></a>
+            <svg class="toggler__icon icon--primary nav__toggler">
+                <use xlink:href="images/sprite.svg#menu"></use>
+            </svg>
+            <ul class="list nav__list collapsible__content">
+                <li class="nav__item"><a href="#hero">Home</a></li>
+                <li class="nav__item"><a href="#about">About</a></li>
+                <li class="nav__item"><a href="#project">Projects</a></li>
+                <li class="nav__item"><a href="#contact">Contact</a></li>
+                <li class="nav__item"><a href="#journey">My Journey</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- More content follows as in your original code -->
+
+
+    <!-- Intro Section -->
+    <section class="block hero" id="hero">
+        <div class="container">
+            <header class="block__header  hero__content">
+
+
+                <h1 class="block__heading hero__heading">
+                    <span>Frontend</span>
+                    <span>Developer</span>
+                </h1>
+
+                <p class="hero__description"> I specialize in React Development, building smooth user experiences and
+                    strong functionalities. Open to full-time, part-time, or remote roles.
+                </p>
+
+            </header>
+
+            <div class="profile">
+                <div class="profile__info"><img src="./images/pic.jpg" />
+
+                    <div class="block__header ">
+                        <h3 class=" profile__title">
+                            <span>Simbongile</span>
+                            <span>Mkhotheli</span>
+                        </h3>
+
+
+                        <!--  <h3>Frontend Developer</h3>-->
+                        <p class="bio">Ready to take on any challenge, I'm here to bring your vision to life
+                            with the stealth and precision of a true code warrior.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="button__group button--block">
+                <a href="#" class="button button--primary button--large">Get Resume</a>
+                <a href="#project" class="button  button--outline">View Portfolio</a>
+            </div>
+
+
+            <div class="badges__container">
+                <div class=" badgescard social__icons ">
+
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+
+                </div>
+
+                <div class="badgescard badgescard--right">
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-css3"></i>
+
+
+                </div>
+
+
+            </div>
+    </section>
+
+
+    <!-- About Me Section -->
+    <section class="about container " id="about">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header__container">
+                <h2 class="block__heading">Who I Am and What I Do</h2>
+                <p class="about__title">Frontend Developer | Problem Solver | Innovator</p>
+            </div>
+        </header>
+        <article class="about__intro">
+            <img src="/images/pic.jpg" alt="Simbongile" class="about__photo">
+            <div class="about__content">
+                <p>
+                    I'm a React Developer with a passion for crafting seamless user experiences. With a background in
+                    Systems Development, Ethical Hacking, and Networking, I bring a unique perspective to every
+                    project I tackle.
+                </p>
+            </div>
+        </article>
+
+        <!-- Info Cards -->
+        <article class="about__details">
+            <div class="card">
+                <i class="fas fa-code card__icon"></i>
+                <h3 class="card__title">What Drives Me?</h3>
+                <p class="card__text">
+                    I love solving complex technical challenges and building user-friendly frontends that make a
+                    difference.
+                </p>
+            </div>
+            <div class="card">
+                <i class="fas fa-project-diagram card__icon"></i>
+                <h3 class="card__title">What I’ve Worked On</h3>
+                <p class="card__text">
+                    From intuitive interfaces to robust systems, my projects reflect my commitment to quality.
+                </p>
+            </div>
+            <div class="card">
+                <i class="fas fa-handshake card__icon"></i>
+                <h3 class="card__title">How I Work</h3>
+                <p class="card__text">
+                    Collaboration is at my core. I value teamwork, clear communication, and delivering results.
+                </p>
+            </div>
+        </article>
+
+
+    </section>
+
+
+
+    <section class="block__project" id="project">
+        <header class="block__header">
+            <h2 class="project__title">My {dev} Projects</h2>
+            <p class="projects__subtitle">No better way to get experience than real-world projects.</p>
+
+            <div class="project__filters">
+                <span class="project__item  active-project" data-filter='.web'>Web</span>
+                <span class="project__item " data-filter='.app'>Apps</span>
+                <span class="project__item" data-filter='.systems'>Systems</span>
+            </div>
+
+        </header>
+
+        <div class="container grid projects ">
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="card web app systems">
+                <div class="card__header">
+                    <img src="images/CapaCiTi.jpg" alt="">
+                    <div class="card__heading">
+                        <h3 class="card__title">CapaCiTi Tech Accelerator</h3>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <p>A fully Functional Next.js Based Frondend, having responsive behaviour and
+                        smooth touch UI.</p>
+                </div>
+
+                <div class="button__group">
+                    <a href="#" class="button button--primary">Live Demo</a>
+                    <a href="#" class="button button--outline">GitHub</a>
+                </div>
+
+
+            </div>
+
+            <div class="card web app systems ">
+                <div class="card__header">
+                    <img src="images/LittlePig.jpeg" alt="">
+                    <div class="card__heading">
+                        <h3 class="card__title">Little Pig CC</h3>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <p>A fully Functional Wordpress Based Frondend, having responsive behaviour and
+                        smooth touch UI.</p>
+                </div>
+
+                <div class="button__group">
+                    <a href="#" class="button button--primary">Live Demo</a>
+                    <a href="#" class="button button--outline">GitHub</a>
+                </div>
+
+
+            </div>
+            <div class="card web app systems">
+                <div class="card__header">
+                    <img src="images/hub.jpeg" alt="">
+                    <div class="card__heading">
+                        <h3 class="card__title">Programming Hub</h3>
+                    </div>
+                </div>
+
+                <div class="card__body">
+                    <p>A fully Functional Based ReactFrondend, having responsive behaviour and
+                        smooth touch UI.</p>
+                </div>
+
+                <div class="button__group">
+                    <a href="#" class="button button--primary">Live Demo</a>
+                    <a href="#" class="button button--outline">GitHub</a>
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+    <section class="container">
+
+        <header class="block__header">
+            <h2 class="form__heading">What's Next!</h2>
+
+        </header>
+
+        <div class="contact__container">
+            <div class="contact__info">
+                <h3 class="contact__title">Let's get in touch</h3>
+                <p class="contact__text">
+                    If you have any opporttunity, suggestion or feedback, please I would like to hear from you! Please
+                    feel free to reach out to me using the contact form or my Email Address.
+                </p>
+                <div class="info">
+                    <p>19 Graham Road, Southernwood, East London, 5201</p>
+                    <p>mkotelisimbo@gmail.com</p>
+                    <p>065-537-4003</p>
+                    2024-12-12 10:37:43.479 [info] > git show --textconv HEAD:index.html [103ms]
+                </div>
+                <p class="connect">Connect with me :</p>
+
+
+                <div class="social__icons social__icons-footer">
+
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-instagram"></i>
+
+                </div>
+
+
+
+
+                <p class="footer">Made with <span>❤️</span> by <span>Simbongile Mkhotheli</span></p>
+            </div>
+            <div class="contact__form">
+                <h3 class="form__title">Let's Chat</h3>
+                <form action="#" method="post">
+                    <div class="input__container">
+                        <input type="text" name="username" class="input" placeholder="Username" required>
+                    </div>
+                    <div class="input__container">
+                        <input type="email" name="email" class="input" placeholder="Email" required>
+                    </div>
+                    <div class="input__container">
+                        <input type="text" name="phone" class="input" placeholder="Phone" required>
+                    </div>
+                    <div class="input__container">
+                        <textarea name="message" class="input input__message" placeholder="Message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <p class="footer__text">© 2024 Simbongile. All rights reserved.</p>
+    </footer>
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
