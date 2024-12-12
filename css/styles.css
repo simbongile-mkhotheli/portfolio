@@ -1,4 +1,5 @@
 :root {
+  --color-social-icon: #007bff;
   --color-primary: #00bfff;
   --color-secondary: #ff9800;
   --color-secondary-bg: #0b0914;
@@ -517,7 +518,7 @@ a {
 }
 
 .social__icons {
-  color: var(--color-primary);
+  color: var(--color-social-icon);
   display: flex;
   justify-content: center;
   gap: 15px;
