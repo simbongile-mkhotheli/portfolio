@@ -517,7 +517,7 @@ a {
 }
 
 .social__icons {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   display: flex;
   justify-content: center;
   gap: 15px;
