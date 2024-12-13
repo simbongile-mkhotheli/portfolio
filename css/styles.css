@@ -687,7 +687,14 @@ a {
   gap: 2rem;
   margin: 3rem 2px 3rem;
 }
+@media screen and (min-width: 1024px) {
+  .about__intro {
+    display: flex;
+    align-items: center;
 
+    margin: 3rem 7rem 3rem;
+  }
+}
 .about__photo {
   display: none;
   width: 150px;
