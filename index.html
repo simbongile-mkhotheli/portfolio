@@ -48,62 +48,65 @@
             </header>
 
             <div class="profile">
-                <div class="profile__info"><img src="./images/pic.jpg" />
+                <div class="profile__info">
+                    <img src="./images/pic.webp" alt="Simbongile Mkhotheli's Profile Picture" />
 
-                    <div class="block__header ">
-                        <h3 class=" profile__title">
+                    <div class="block__header">
+                        <h3 class="profile__title">
                             <span>Simbongile</span>
                             <span>Mkhotheli</span>
                         </h3>
 
-
-                        <!--  <h3>Frontend Developer</h3>-->
-                        <p class="bio">Ready to take on any challenge, I'm here to bring your vision to life
-                            with the stealth and precision of a true code warrior.</p>
+                        <!-- Uncomment the below line if you want to display the title -->
+                        <!-- <h3>Frontend Developer</h3> -->
+                        <p class="bio">
+                            Ready to take on any challenge, I'm here to bring your vision to life with the stealth and
+                            precision of a true code warrior.
+                        </p>
                     </div>
-
                 </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="button__group button--block">
+            <a href="./assets/doc/cv.pdf" download="Simbongile_Mkhotheni_CV"
+                class="button button--primary button--large">Get Resume</a>
+            <a href="#project" class="button button--outline">View Portfolio</a>
+        </div>
+
+
+        <div class="badges__container">
+            <div class=" badgescard social__icons ">
+                <a href="https://www.facebook.com/profile.php?id=100092344076670" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <div class="badgescard badgescard--right">
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-css3"></i>
 
 
             </div>
 
 
-            <div class="button__group button--block">
-                <a href="./assets/doc/cv.pdf" download="Simbongile_Mkhotheni_CV"
-                    class="button button--primary button--large">Get Resume</a>
-                <a href="#project" class="button button--outline">View Portfolio</a>
-            </div>
-
-
-            <div class="badges__container">
-                <div class=" badgescard social__icons ">
-                    <a href="https://www.facebook.com/profile.php?id=100092344076670" target="_blank"
-                        rel="noopener noreferrer">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-
-                </div>
-
-                <div class="badgescard badgescard--right">
-                    <i class="fa-brands fa-react"></i>
-                    <i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-js"></i>
-                    <i class="fa-brands fa-css3"></i>
-
-
-                </div>
-
-
-            </div>
+        </div>
     </section>
 
 
@@ -186,11 +189,15 @@
 
             <div class="card web app systems">
                 <div class="card__header">
-                    <img src="images/CapaCiTi.jpg" alt="">
+                    <picture>
+                        <source srcset="images/CapaCiTi.webp" type="image/webp">
+                        <img src="images/CapaCiTi.jpg" alt="CapaCiTi Tech Accelerator Logo">
+                    </picture>
                     <div class="card__heading">
                         <h3 class="card__title">CapaCiTi Tech Accelerator</h3>
                     </div>
                 </div>
+
 
                 <div class="card__body">
                     <p>A fully Functional Next.js Based Frondend, having responsive behaviour and
@@ -207,7 +214,10 @@
 
             <div class="card web app systems ">
                 <div class="card__header">
-                    <img src="images/LittlePig.jpeg" alt="">
+                    <picture>
+                        <source srcset="images/LittlePig.webp" type="image/webp">
+                        <img src="images/LittlePig.jpg" alt="CapaCiTi Tech Accelerator Logo">
+                    </picture>
                     <div class="card__heading">
                         <h3 class="card__title">Little Pig CC</h3>
                     </div>
@@ -227,7 +237,10 @@
             </div>
             <div class="card web app systems">
                 <div class="card__header">
-                    <img src="images/hub.jpeg" alt="">
+                    <picture>
+                        <source srcset="images/hub.webp" type="image/webp">
+                        <img src="images/hub.jpeg" alt="CapaCiTi Tech Accelerator Logo">
+                    </picture>
                     <div class="card__heading">
                         <h3 class="card__title">Programming Hub</h3>
                     </div>
