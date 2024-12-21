@@ -12,8 +12,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 /* Typography */
@@ -27,10 +25,8 @@ html {
   font-size: 62.5%;
 }
 
-img,
-video,
-iframe {
-  max-width: 100%;
+img {
+  width: 100%;
   height: auto;
 }
 
@@ -146,8 +142,6 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  width: 100%;
-  height: auto;
 }
 
 /* Links */
@@ -460,6 +454,13 @@ a {
   .button {
     font-size: 1.8rem;
   }
+}
+
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .profile {
