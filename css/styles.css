@@ -395,10 +395,15 @@ a {
 }
 
 .button__group {
-  display: flex;
   gap: 1.5rem;
 }
 
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+  .button__group {
+    display: flex; /* Use flexbox for layout */
+  }
+}
 .button {
   display: inline-flex;
   align-items: center;
